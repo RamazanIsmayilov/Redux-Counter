@@ -1,0 +1,28 @@
+body {
+    background-color: #fff2f4;
+    /* width: 100%; */
+    overflow-y: hidden;
+}
+
+.counter {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter span {
+    font-size: 40px;
+    color: #fff;
+    background-color: red;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.counter button {
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
